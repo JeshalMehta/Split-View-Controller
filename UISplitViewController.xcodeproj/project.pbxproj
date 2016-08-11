@@ -15,6 +15,7 @@
 		12426AB01D581042000D94BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12426AAE1D581042000D94BB /* LaunchScreen.storyboard */; };
 		12426ABB1D581042000D94BB /* UISplitViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12426ABA1D581042000D94BB /* UISplitViewControllerTests.swift */; };
 		12426AC61D581042000D94BB /* UISplitViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12426AC51D581042000D94BB /* UISplitViewControllerUITests.swift */; };
+		12426AD71D582F15000D94BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12426AD51D582F15000D94BB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		12426AC11D581042000D94BB /* UISplitViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISplitViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12426AC51D581042000D94BB /* UISplitViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISplitViewControllerUITests.swift; sourceTree = "<group>"; };
 		12426AC71D581042000D94BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12426AD51D582F15000D94BB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				12426AA21D581042000D94BB /* AppDelegate.swift */,
 				12426AA41D581042000D94BB /* ViewController.swift */,
 				12426AA61D581042000D94BB /* Main.storyboard */,
+				12426AD51D582F15000D94BB /* DetailViewController.swift */,
 				12426AAC1D581042000D94BB /* Assets.xcassets */,
 				12426AAE1D581042000D94BB /* LaunchScreen.storyboard */,
 				12426AB11D581042000D94BB /* Info.plist */,
@@ -262,6 +265,7 @@
 				12426AA51D581042000D94BB /* ViewController.swift in Sources */,
 				12426AAB1D581042000D94BB /* UISplitViewController.xcdatamodeld in Sources */,
 				12426AA31D581042000D94BB /* AppDelegate.swift in Sources */,
+				12426AD71D582F15000D94BB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				12426ACC1D581042000D94BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12426ACD1D581042000D94BB /* Build configuration list for PBXNativeTarget "UISplitViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				12426ACF1D581042000D94BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12426AD01D581042000D94BB /* Build configuration list for PBXNativeTarget "UISplitViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				12426AD21D581042000D94BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
